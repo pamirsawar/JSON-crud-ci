@@ -10,7 +10,7 @@
 
 <div class="col-4">
 
-    <form action="/save" method="post">
+    <form action="<?php echo base_url()?>/home/save" method="post">
 
         <div class="mb-3">
             <label for="Name" class="form-label">Name</label>
@@ -41,13 +41,13 @@
             <label for="Roles" class="form-label">Roles</label> <br>
             <select class="selectpicker" name="roles" multiple id="edit-roles">
 
-                <option value="admin" <?php /* if (strpos($rolestring, 'admin') !== false) echo "selected" */ ?>> admin </option>
+                <option value="admin" >admin</option>
 
-                <option value="sales" <?php /* if (strpos($rolestring, 'sales') !== false) echo "selected" */  ?>> sales </option>
+                <option value="sales" >sales</option>
 
-                <option value="reporting" <?php /* if (strpos($rolestring, 'reporting') !== false) echo "selected" */  ?>> reporting</option>
+                <option value="reporting" >reporting</option>
 
-                <option value="development" <?php /* if (strpos($rolestring, 'development') !== false) echo "selected"  */  ?>> development</option>
+                <option value="development">development</option>
 
             </select>
         </div>

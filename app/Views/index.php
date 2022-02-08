@@ -2,6 +2,16 @@
 
 <?= $this->section('content') ?>
 
+
+<?php
+
+// echo "<pre>";
+
+// print_r($user);
+// die();
+
+?>
+
 <div class="container">
 
     <h1>ALL USERS</h1>
@@ -59,6 +69,8 @@
             ?>
         </tbody>
     </table>
+
+
 </div>
 
 </div>

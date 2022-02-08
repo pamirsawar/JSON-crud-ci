@@ -1,4 +1,7 @@
 $(document).ready(function() {
+
+    console.log('hi');
+
     $('#myTable').DataTable();
 
 
@@ -25,6 +28,8 @@ $(document).ready(function() {
         var roles=$('#edit-roles').val();
 
         var rolestring = roles.join(',');
+
+        console.log(rolestring);
 
         $('#roles').val(rolestring);
 
