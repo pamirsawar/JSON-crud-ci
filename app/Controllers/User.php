@@ -9,4 +9,7 @@ class User extends BaseController
     {
         return view('index');
     }
+
+
+
 }

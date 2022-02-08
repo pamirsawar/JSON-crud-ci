@@ -11,12 +11,11 @@ $(document).ready(function() {
         if (action == 'delete') {
             let message = "are you sure you want to delete the record?";
             if (confirm(message) == true) {
-                window.location = 'delete.php?action=' + action + '&id=' + id;
-
+                window.location = '/delete/' + id;
             }
         }
         else{
-            window.location = 'index.php?action=' + action + '&id=' + id;
+            window.location = '/' + action + '/' + id;
         }
 
     });
