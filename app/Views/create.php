@@ -8,10 +8,14 @@
 
 <h1>Create Record</h1>
 
+
 <div class="col-4">
-
+    <div>
+        <a class="btn btn-primary mr-0 btn-sm" href="/"> back </a>
+    </div>
+    
     <form action="<?php echo base_url()?>/home/save" method="post">
-
+        
         <div class="mb-3">
             <label for="Name" class="form-label">Name</label>
             <input type="text" name="name" class="form-control" id="Name">

@@ -17,7 +17,10 @@ $rolestring = implode(',', $data['roles']);
 
         <div class="col-4">
 
-            <form action="<?php echo base_url()?>/home/update" method="post">
+            <div>
+                <a class="btn btn-primary mr-0 btn-sm" href="/"> back </a>
+            </div>
+            <form action="<?php echo base_url() ?>/home/update" method="post">
 
                 <div class="mb-3">
                     <label for="Name" class="form-label">Name</label>
