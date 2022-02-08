@@ -1,4 +1,4 @@
-#CRUD operations with codeigniter 
+# CRUD operations with codeigniter 
 
 ## steps to run the code
 
