@@ -17,8 +17,9 @@ class Home extends BaseController
     }
 
     function create(){
-
-        return view('create');
+ echo "Test";
+ die();
+        return view('create.php');
 
     }
 
