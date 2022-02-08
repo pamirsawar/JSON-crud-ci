@@ -6,7 +6,7 @@
 
     <h1>ALL USERS</h1>
 
-    <a href="/home/create" class="btn btn-primary mb-2 pull-right"> Create </a>
+    <a href="/create" class="btn btn-primary mb-2 pull-right"> Create </a>
 
     <table id="myTable" class="mt-3">
 

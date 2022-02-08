@@ -17,13 +17,12 @@ class Home extends BaseController
     }
 
     function create(){
- echo "Test";
- die();
+
         return view('create.php');
 
     }
 
-    public function save()
+    function save()
     {
         echo "in save";
         // $user= new User();
@@ -31,5 +30,8 @@ class Home extends BaseController
         // $data['user']=$user->getUser();
 
         // return view('index',$data);
+    }
+    function edit($i){
+        echo $i;
     }
 }
