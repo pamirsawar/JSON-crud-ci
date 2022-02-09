@@ -4,7 +4,7 @@
 
 clone repository 
 
-run : cd into JSON-CRUD-CI
+run : cd JSON-CRUD-CI
 
 run : composer install
 
